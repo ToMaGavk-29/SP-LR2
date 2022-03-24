@@ -10,7 +10,6 @@ int main() {
 	for (int i = 0; i < 10; i++) {
 		answer += Abs(arr[i]);
 	}
-
 	printf("%d\n", answer);
 	return 0;
 }
