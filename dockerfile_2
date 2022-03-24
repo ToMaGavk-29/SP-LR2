@@ -1,0 +1,9 @@
+FROM ubuntu
+COPY ex.asm .
+COPY gma_sp2.c .
+RUN apt-get update
+RUN apt-get upgrade -y
+RUN apt-get install gcc nasm gdb yasm -y
+RUN /bin/bash
+
+
